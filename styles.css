@@ -1,0 +1,63 @@
+body {
+    font-family: "roboto", sans-serif;
+    color: #434445;
+    background-color: #ffffff;
+}
+
+button {
+cursor: pointer;
+}
+
+/* null style */
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+    margin: 0;
+}
+ul {
+list-style: none;
+padding-left: 0;
+margin: 0;
+}
+
+address {
+font-style: normal;
+}
+
+.visually-hidden {
+position: absolute;
+width: 1px;
+height: 1px;
+margin: 1px;
+border: 0;
+padding:0 ;
+white-space: nowrap;
+clip-path: inset(100%);
+clip: rect(0 0 0 0);
+overflow: hidden;
+}
+
+.container {
+    width: 1158px;
+
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.header {
+}
+.logo {
+}
+.header-address {
+}
+.header-contact-list {
+}
+.header-contact-item {
+}
+.header-contect-link {
+}
